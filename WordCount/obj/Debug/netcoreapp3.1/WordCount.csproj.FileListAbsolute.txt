@@ -1,0 +1,32 @@
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.exe
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.deps.json
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.runtimeconfig.json
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.runtimeconfig.dev.json
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.dll
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.pdb
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\MapReducer.dll
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\bin\Debug\netcoreapp3.1\MapReducer.pdb
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.csprojAssemblyReference.cache
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.AssemblyInfoInputs.cache
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.AssemblyInfo.cs
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.csproj.CoreCompileInputs.cache
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.csproj.CopyComplete
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.dll
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.pdb
+D:\workspace\CSharp\Parallel\AulaMapReduce\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.genruntimeconfig.cache
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.dll
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.pdb
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.csprojAssemblyReference.cache
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.exe
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.deps.json
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.runtimeconfig.json
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.runtimeconfig.dev.json
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.dll
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\WordCount.pdb
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\MapReducer.dll
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\bin\Debug\netcoreapp3.1\MapReducer.pdb
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.csproj.CopyComplete
+C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\WordCount\obj\Debug\netcoreapp3.1\WordCount.genruntimeconfig.cache
