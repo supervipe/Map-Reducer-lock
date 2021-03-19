@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\mateu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\MapReducer\\MapReducer.csproj",
+      "projectUniqueName": "D:\\Projetos College\\Map-Reducer-lock\\MapReducer\\MapReducer.csproj",
       "projectName": "MapReducer",
-      "projectPath": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\MapReducer\\MapReducer.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\MapReducer\\obj\\",
+      "projectPath": "D:\\Projetos College\\Map-Reducer-lock\\MapReducer\\MapReducer.csproj",
+      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos College\\Map-Reducer-lock\\MapReducer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

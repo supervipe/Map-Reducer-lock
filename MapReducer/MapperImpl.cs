@@ -11,10 +11,6 @@ namespace MapReducer {
         private MF mapfunction = default;
         volatile int[] flag;
         volatile int[] turn;
-        private static readonly Object locker = new Object();
-        private int ID;
-        private int node;
-        private String binaryID;
 
         public MF Function { get { return mapfunction; } set { mapfunction = value; } }
 
@@ -30,19 +26,18 @@ namespace MapReducer {
             ivs.Add(pair.Value);
         }
 
-       
-        private void lockN(Object locker, int l, int i)
+
+        private void lockN(object o)
         {
-            flag = new int[l + 1];
-            turn = new int[l];
-            for(int j = 1; j < l - 1; j++)
+            flag = new int[SplitterImpl<IMK, IMV, OMK, OMV, MF>.contador + 1];
+            turn = new int[SplitterImpl<IMK, IMV, OMK, OMV, MF>.contador];
+            for(int j = 1; j < SplitterImpl<IMK, IMV, OMK, OMV, MF>.contador - 1; j++)
             {
-                flag[i] = j;
-                turn[j] = i;
-                int k = SplitterImpl<IMK, IMV, OMK, OMV, MF>.idThread;
-                while(turn[j] != i || (k != i && flag[k] >= j)) ;
+                flag[SplitterImpl<IMK, IMV, OMK, OMV, MF>.idThread] = j;
+                turn[j] = SplitterImpl<IMK, IMV, OMK, OMV, MF>.idThread;
+                while((SplitterImpl<IMK, IMV, OMK, OMV, MF>.steveList[SplitterImpl<IMK, IMV, OMK, OMV, MF>.idThread] != (string)o));
             }
-            flag[i] = -1;
+            flag[SplitterImpl<IMK, IMV, OMK, OMV, MF>.idThread] = -1;
         }
         private void unlockN()
         {
@@ -52,9 +47,8 @@ namespace MapReducer {
 
         public void Compute(object currentId)
         {
-            int id = SplitterImpl<IMK, IMV, OMK, OMV, MF>.idThread;
-            int l = SplitterImpl<IMK, IMV, OMK, OMV, MF>.contador;
-            lockN(locker, l, id);
+
+            lockN(currentId);
 
             var Output = DataFeeder<OMK, OMV>.DataFeed;
                 

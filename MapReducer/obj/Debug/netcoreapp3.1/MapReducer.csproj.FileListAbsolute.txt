@@ -15,3 +15,12 @@ C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\MapReducer\obj\Debug\netcore
 C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.dll
 C:\Users\USUARIO\Downloads\Comp Paralela\MapReducer\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.pdb
+D:\Projetos College\Map-Reducer-lock\MapReducer\bin\Debug\netcoreapp3.1\MapReducer.deps.json
+D:\Projetos College\Map-Reducer-lock\MapReducer\bin\Debug\netcoreapp3.1\MapReducer.dll
+D:\Projetos College\Map-Reducer-lock\MapReducer\bin\Debug\netcoreapp3.1\MapReducer.pdb
+D:\Projetos College\Map-Reducer-lock\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.csprojAssemblyReference.cache
+D:\Projetos College\Map-Reducer-lock\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.AssemblyInfoInputs.cache
+D:\Projetos College\Map-Reducer-lock\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.AssemblyInfo.cs
+D:\Projetos College\Map-Reducer-lock\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.csproj.CoreCompileInputs.cache
+D:\Projetos College\Map-Reducer-lock\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.dll
+D:\Projetos College\Map-Reducer-lock\MapReducer\obj\Debug\netcoreapp3.1\MapReducer.pdb

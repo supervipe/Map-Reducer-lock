@@ -5,6 +5,7 @@ using System.Threading;
 
 namespace MapReducer {
     public class SplitterImpl<IMK, IMV, OMK, OMV, MF> : ISplitter<IMK, IMV, OMK, OMV, MF> where MF : IMapFunction<IMK, IMV, OMK, OMV> {
+        public static List<string> steveList = new List<string>();
         public static int idThread;
         public static int contador;
         public DataFeeder<OMK, OMV> Splitting(int n, MF mf, IEnumerable<Pair<IMK, IMV>> enumerable) {
@@ -27,6 +28,7 @@ namespace MapReducer {
             foreach (var kv in mappers) {
                 Thread t = new Thread(kv.Value.Compute);
                 t.Name = kv.Key.ToString();
+                steveList.Add(t.Name);
                 threads.Add(t);
                 contador++;
             }
