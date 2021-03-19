@@ -6,6 +6,6 @@ namespace MapReducer {
     public interface IMapper<IMK, IMV, OMK, OMV, MF> where MF : IMapFunction<IMK, IMV, OMK, OMV> {
         public MF Function { get; set; }
         public void ReceiveInputPair(Pair<IMK, IMV> pair);
-        public void Compute();
+        public void Compute(object currentId);
     }
 }
