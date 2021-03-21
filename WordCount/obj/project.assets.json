@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mateu\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos College\\Map-Reducer-lock\\WordCount\\WordCount.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\WordCount\\WordCount.csproj",
       "projectName": "WordCount",
-      "projectPath": "D:\\Projetos College\\Map-Reducer-lock\\WordCount\\WordCount.csproj",
-      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos College\\Map-Reducer-lock\\WordCount\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\WordCount\\WordCount.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\WordCount\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projetos College\\Map-Reducer-lock\\MapReducer\\MapReducer.csproj": {
-              "projectPath": "D:\\Projetos College\\Map-Reducer-lock\\MapReducer\\MapReducer.csproj"
+            "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\MapReducer\\MapReducer.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\MapReducer\\MapReducer.csproj"
             }
           }
         }

@@ -7,7 +7,7 @@ using MapReducer;
 namespace WordCount {
     class AppMain {
         public static readonly int N = 4;
-        public static readonly string file = @"D:\\Projetos College\\Map-Reducer-lock\\WordCount\\Words.txt";
+        public static readonly string file = @"C:\\Users\\USUARIO\\Downloads\\Comp Paralela\\MapReducer\\WordCount\\Words.txt";
 
         public static void Main(string[] args) {
             IEnumerable<string> enumerable = File.ReadAllLines(file);
