@@ -48,10 +48,9 @@ namespace MapReducer {
         public void Compute(object currentId)
         {
 
-            lockN(currentId);
-
             var Output = DataFeeder<OMK, OMV>.DataFeed;
-                
+
+
             foreach (var kv in Input)
             {
                 IMK chave = kv.Key;
@@ -63,7 +62,9 @@ namespace MapReducer {
                         List<Pair<OMK, OMV>> pares = Function.Run(chave, valor);
                         foreach (Pair<OMK, OMV> par in pares)
                         {
-                            if (!Output.TryGetValue(par.Key, out List<OMV> omvs))
+                        lockN(currentId);
+
+                        if (!Output.TryGetValue(par.Key, out List<OMV> omvs))
                             {
                                 omvs = new List<OMV>();
                                 Output.Add(par.Key, omvs);

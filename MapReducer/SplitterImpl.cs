@@ -24,6 +24,7 @@ namespace MapReducer {
                 }
                 mapper.ReceiveInputPair(new Pair<IMK, IMV>(dados.Current.Key, dados.Current.Value));
             }
+            idThread = 0;
 
             foreach (var kv in mappers) {
                 Thread t = new Thread(kv.Value.Compute);
@@ -32,7 +33,6 @@ namespace MapReducer {
                 threads.Add(t);
                 contador++;
             }
-            idThread = 0;
             foreach (Thread t in threads)
                 t.Start(t.Name);
             foreach (Thread t in threads)
