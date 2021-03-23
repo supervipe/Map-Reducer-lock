@@ -48,36 +48,37 @@ namespace MapReducer {
         public void Compute(object currentId)
         {
 
-            lockN(currentId);
-
             var Output = DataFeeder<OMK, OMV>.DataFeed;
-                
+
+
             foreach (var kv in Input)
             {
                 IMK chave = kv.Key;
                 List<IMV> valores = kv.Value;
-                   
-                    foreach (IMV valor in valores)
+
+                foreach (IMV valor in valores)
+                {
+
+                    List<Pair<OMK, OMV>> pares = Function.Run(chave, valor);
+                    foreach (Pair<OMK, OMV> par in pares)
                     {
-                       
-                        List<Pair<OMK, OMV>> pares = Function.Run(chave, valor);
-                        foreach (Pair<OMK, OMV> par in pares)
+                        lockN(currentId);
+
+                        if (!Output.TryGetValue(par.Key, out List<OMV> omvs))
                         {
-                            if (!Output.TryGetValue(par.Key, out List<OMV> omvs))
-                            {
-                                omvs = new List<OMV>();
-                                Output.Add(par.Key, omvs);
-                            }
-                            omvs.Add(par.Value);
-                            if (Function is IMapFunctionCombiner<IMK, IMV, OMK, OMV>)
-                            {
-                                IMapFunctionCombiner<IMK, IMV, OMK, OMV> mf = (IMapFunctionCombiner<IMK, IMV, OMK, OMV>)Function;
-                                OMV omv = mf.Combiner(omvs);
-                                omvs.Clear();
-                                omvs.Add(omv);
-                            }
+                            omvs = new List<OMV>();
+                            Output.Add(par.Key, omvs);
+                        }
+                        omvs.Add(par.Value);
+                        if (Function is IMapFunctionCombiner<IMK, IMV, OMK, OMV>)
+                        {
+                            IMapFunctionCombiner<IMK, IMV, OMK, OMV> mf = (IMapFunctionCombiner<IMK, IMV, OMK, OMV>)Function;
+                            OMV omv = mf.Combiner(omvs);
+                            omvs.Clear();
+                            omvs.Add(omv);
                         }
                     }
+                }
                 unlockN();
             }
         }
